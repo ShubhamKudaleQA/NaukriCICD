@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="TestComponent.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.LoginPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="loginInvalidTest"/>
-        </methods>
-      </class> <!-- TestCases.LoginPageTest -->
       <class name="TestCases.viewProfilePageTest">
         <methods>
           <include name="verifyTitle"/>
@@ -21,5 +11,5 @@
         </methods>
       </class> <!-- TestCases.viewProfilePageTest -->
     </classes>
-  </test> <!-- Test(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
