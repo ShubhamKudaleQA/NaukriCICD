@@ -8,6 +8,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -29,7 +30,7 @@ public class ViewProfilePage extends TestBase {
 
 	@FindBy(id = "saveBasicDetailsBtn")
 	WebElement saveButton;
-	
+
 	@FindBy(xpath = "//p[@class='msg']")
 	WebElement CVUpdateSuccessMsg;
 
@@ -44,6 +45,11 @@ public class ViewProfilePage extends TestBase {
 
 		for (WebElement a : noticePeriod) {
 			if (a.getText().equalsIgnoreCase(noticeLess15)) {
+
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", a);
+
+				wait.until(ExpectedConditions.elementToBeClickable(a));
+
 				a.click();
 				System.out.println("Notice Period 15 Days or less click succssfully!!!");
 			}
@@ -52,7 +58,6 @@ public class ViewProfilePage extends TestBase {
 		saveButton.click();
 
 	}
-	
 
 	public void updateResume(String filePath) {
 		wait.until(ExpectedConditions.elementToBeClickable(inputFile));
@@ -75,24 +80,21 @@ public class ViewProfilePage extends TestBase {
 
 			rb.keyPress(KeyEvent.VK_ENTER);
 			rb.keyRelease(KeyEvent.VK_ENTER);
-			
-			
+
 			wait.until(ExpectedConditions.visibilityOf(CVUpdateSuccessMsg));
-			
+
 			String ResumeUploadedSuccessMsg = CVUpdateSuccessMsg.getText();
-			
-			assertEquals(ResumeUploadedSuccessMsg,"Resume has been successfully uploaded.");
+
+			assertEquals(ResumeUploadedSuccessMsg, "Resume has been successfully uploaded.");
 
 			System.out.println("File Uploaded");
-			
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
 	}
-	
-	
+
 	public String Title() {
 		return driver.getTitle();
 	}
