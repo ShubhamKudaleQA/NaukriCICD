@@ -11,7 +11,7 @@ import Pages.LoginPage;
 import Pages.ViewProfilePage;
 import TestBase.TestBase;
 
-public class viewProfilePageTest extends TestBase {
+public class viewProfilePageTest extends TestBase { 
 	LoginPage loginPage;
 	HomePage homePage;
 	ViewProfilePage viewProfile;
