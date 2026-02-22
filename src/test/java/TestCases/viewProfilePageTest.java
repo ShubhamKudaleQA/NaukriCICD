@@ -49,8 +49,7 @@ public class viewProfilePageTest extends TestBase {
 	@Test (priority =3)
 	public void verifyTitle() {
 		String title =viewProfile.Title();
-		//assertEquals(title, "XYZ");
-		System.out.println(title);
+		assertEquals(title, "XYZ");
 	}
 	
 	@Test (priority =4)
