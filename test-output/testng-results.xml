@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-05T09:05:30Z" name="Default suite" finished-at="2026-02-05T09:06:02Z" duration-ms="32241">
+  <suite started-at="2026-02-21T05:47:19Z" name="Default suite" finished-at="2026-02-21T05:47:58Z" duration-ms="38593">
     <groups>
     </groups>
-    <test started-at="2026-02-05T09:05:30Z" name="Default test" finished-at="2026-02-05T09:06:02Z" duration-ms="32241">
+    <test started-at="2026-02-21T05:47:19Z" name="Default test" finished-at="2026-02-21T05:47:58Z" duration-ms="38593">
       <class name="TestCases.viewProfilePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:30Z" name="setup" finished-at="2026-02-05T09:05:37Z" duration-ms="7101" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:19Z" name="setup" finished-at="2026-02-21T05:47:27Z" duration-ms="7541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyNoticePeriod()[pri:1, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:37Z" name="verifyNoticePeriod" finished-at="2026-02-05T09:05:38Z" duration-ms="1276" status="PASS">
+        <test-method signature="verifyNoticePeriod()[pri:1, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:27Z" name="verifyNoticePeriod" finished-at="2026-02-21T05:47:28Z" duration-ms="1338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNoticePeriod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:38Z" name="tearDown" finished-at="2026-02-05T09:05:38Z" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:28Z" name="tearDown" finished-at="2026-02-21T05:47:28Z" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:38Z" name="setup" finished-at="2026-02-05T09:05:45Z" duration-ms="6714" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:28Z" name="setup" finished-at="2026-02-21T05:47:36Z" duration-ms="8114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyResumeUpload()[pri:2, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:45Z" name="verifyResumeUpload" finished-at="2026-02-05T09:05:49Z" duration-ms="3914" status="PASS">
+        <test-method signature="verifyResumeUpload()[pri:2, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:36Z" name="verifyResumeUpload" finished-at="2026-02-21T05:47:42Z" duration-ms="5813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResumeUpload -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:49Z" name="tearDown" finished-at="2026-02-05T09:05:49Z" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:42Z" name="tearDown" finished-at="2026-02-21T05:47:42Z" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:49Z" name="setup" finished-at="2026-02-05T09:05:56Z" duration-ms="6707" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:42Z" name="setup" finished-at="2026-02-21T05:47:50Z" duration-ms="7379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:3, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:56Z" name="verifyTitle" finished-at="2026-02-05T09:05:56Z" duration-ms="32" status="FAIL">
+        <test-method signature="verifyTitle()[pri:3, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:50Z" name="verifyTitle" finished-at="2026-02-21T05:47:50Z" duration-ms="23" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [XYZ] but found [Profile | Mynaukri]]]>
@@ -78,19 +78,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:56Z" name="tearDown" finished-at="2026-02-05T09:05:56Z" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:50Z" name="tearDown" finished-at="2026-02-21T05:47:50Z" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:05:56Z" name="setup" finished-at="2026-02-05T09:06:02Z" duration-ms="5668" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:50Z" name="setup" finished-at="2026-02-21T05:47:58Z" duration-ms="7592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleName()[pri:4, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:06:02Z" name="titleName" finished-at="2026-02-05T09:06:02Z" duration-ms="10" status="PASS">
+        <test-method signature="titleName()[pri:4, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:58Z" name="titleName" finished-at="2026-02-21T05:47:58Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-05T09:06:02Z" name="tearDown" finished-at="2026-02-05T09:06:02Z" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.viewProfilePageTest@305ffe9e]" started-at="2026-02-21T05:47:58Z" name="tearDown" finished-at="2026-02-21T05:47:58Z" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
