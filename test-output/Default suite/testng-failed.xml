@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCases.viewProfilePageTest">
         <methods>
-          <include name="verifyTitle"/>
+          <include name="verifyResumeUpload"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
